@@ -191,30 +191,101 @@ a {
     margin-top: 24px;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
-
-
+.main__wrapper-title {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+} 
+ 
+.main__wrapper-subtitle {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+    width: 350px;
+} 
+ 
+.main__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+ 
+.main__wrapper-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+} 
+ 
+.main__wrapper-group-img {
+    width: 106px;
+    height: 106px;
+} 
+ 
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1B262F;
+    display: flex;
+    align-items: center;
+} 
+ 
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+ 
+.footer__wrapper-ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ 
+} 
+ 
+.footer__wrapper-li {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    color: #FBFCFE;
+} 
+ 
 @media screen and (max-width: 600px) {
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
-    
+
     .container {
         max-width: 90%;
         margin: 0 auto;
     }
-    
+
     .nav__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .nav__wrapper-ul {
         display: flex;
         gap: 40px;
@@ -229,15 +300,15 @@ a {
         opacity: 0.7;
         display: none;
     }
-    
+
     li {
         list-style: none;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     .nav__wrapper-btn1 {
         background-color: #BA4270;
         width: 173px;
@@ -249,13 +320,13 @@ a {
         justify-content: center;
         align-items: center;
     }
-    
+
     .nav__wrapper-btn1:hover {
         background: none;
         border: 2px dashed #BA4270;
         color: #BA4270;
     }
-    
+
     .nav {
         padding: 16px;
         position: sticky;
@@ -264,12 +335,12 @@ a {
         background-color: white;
         box-shadow: 0 10px 10px #f3f3f3;
     }
-    
+
     .container__wrapper {
-        flex-direction: column  ;
+        flex-direction: column;
     }
-    
-    .menu{
+
+    .menu {
         display: inline-block;
     }
 
@@ -283,15 +354,15 @@ a {
         width: 546px;
         height: 243px;
         color: #36536B;
-    
-    
+
+
     }
-    
+
     .container__wrapper__right-img {
         width: 263px;
         height: 500px;
     }
-    
+
     .section__wrapper-title {
         font-family: 'DM Serif Display';
         font-style: normal;
@@ -301,7 +372,7 @@ a {
         letter-spacing: -0.369231px;
         color: #FBFCFE;
     }
-    
+
     .section__wrapper-subtitle {
         font-family: 'Public Sans';
         font-style: normal;
@@ -313,14 +384,14 @@ a {
         padding-top: 24px;
         width: 445px;
     }
-    
+
     .section {
         padding-top: 100px;
         width: 100%;
         height: 472px;
         background-color: #1B262F;
     }
-    
+
     .section__wrapper-btn2 {
         background: transparent;
         width: 129px;
@@ -338,29 +409,29 @@ a {
         border-radius: 24px;
         margin-top: 32px;
     }
-    
-    
+
+
     .section__wrapper {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .section__wrapper-right__top {
         display: flex;
         gap: 62px;
     }
-    
+
     .section__wrapper-right__bottom {
         display: flex;
         justify-content: space-between;
         margin-top: 43px;
     }
-    
+
     .section__wrapper-right__top-img {
         width: 145px;
         height: 31px;
     }
-    
+
     .section__wrapper-right__bottom-img1 {
         width: 131px;
         height: 17px;
@@ -370,7 +441,7 @@ a {
         width: 445px;
         height: 284px;
     }
-    
+
     .section__wrapper-right-text {
         font-family: 'DM Serif Display';
         font-style: normal;
@@ -380,7 +451,7 @@ a {
         letter-spacing: -0.369231px;
         color: #36536B;
     }
-    
+
     .section__wrapper-right-text2 {
         font-family: 'Public Sans';
         font-style: normal;
@@ -391,7 +462,7 @@ a {
         width: 445px;
         margin-top: 24px;
     }
- 
+
 
 }
 
@@ -402,18 +473,18 @@ a {
         margin: 0;
         box-sizing: border-box;
     }
-    
+
     .container {
         max-width: 90%;
         margin: 0 auto;
     }
-    
+
     .nav__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .nav__wrapper-ul {
         display: flex;
         gap: 40px;
@@ -427,17 +498,17 @@ a {
         mix-blend-mode: normal;
         opacity: 0.7;
 
-    
+
     }
-    
+
     li {
         list-style: none;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     .nav__wrapper-btn1 {
         background-color: #BA4270;
         width: 173px;
@@ -449,13 +520,13 @@ a {
         justify-content: center;
         align-items: center;
     }
-    
+
     .nav__wrapper-btn1:hover {
         background: none;
         border: 2px dashed #BA4270;
         color: #BA4270;
     }
-    
+
     .nav {
         padding: 16px;
         position: sticky;
@@ -464,11 +535,11 @@ a {
         background-color: white;
         box-shadow: 0 10px 10px #f3f3f3;
     }
-    
+
     .container__wrapper {
-        flex-direction: column  ;
+        flex-direction: column;
     }
-    
+
     .container__wrapper-text {
         font-family: 'DM Serif Display';
         font-style: normal;
@@ -479,15 +550,15 @@ a {
         width: 546px;
         height: 243px;
         color: #36536B;
-    
-    
+
+
     }
-    
+
     .container__wrapper__right-img {
         width: 263px;
         height: 500px;
     }
-    
+
     .section__wrapper-title {
         font-family: 'DM Serif Display';
         font-style: normal;
@@ -497,7 +568,7 @@ a {
         letter-spacing: -0.369231px;
         color: #FBFCFE;
     }
-    
+
     .section__wrapper-subtitle {
         font-family: 'Public Sans';
         font-style: normal;
@@ -509,14 +580,14 @@ a {
         padding-top: 24px;
         width: 445px;
     }
-    
+
     .section {
         padding-top: 100px;
         width: 100%;
         height: 472px;
         background-color: #1B262F;
     }
-    
+
     .section__wrapper-btn2 {
         background: transparent;
         width: 129px;
@@ -534,30 +605,30 @@ a {
         border-radius: 24px;
         margin-top: 32px;
     }
-    
-    
+
+
     .section__wrapper {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .section__wrapper-right__top {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap ;
+        flex-wrap: wrap;
     }
-    
+
     .section__wrapper-right__bottom {
         display: flex;
         justify-content: space-between;
         margin-top: 43px;
     }
-    
+
     .section__wrapper-right__top-img {
         width: 145px;
         height: 31px;
     }
-    
+
     .section__wrapper-right__bottom-img1 {
         width: 131px;
         height: 17px;
@@ -567,7 +638,7 @@ a {
         width: 445px;
         height: 284px;
     }
-    
+
     .section__wrapper-right-text {
         font-family: 'DM Serif Display';
         font-style: normal;
@@ -577,7 +648,7 @@ a {
         letter-spacing: -0.369231px;
         color: #36536B;
     }
-    
+
     .section__wrapper-right-text2 {
         font-family: 'Public Sans';
         font-style: normal;
@@ -588,22 +659,16 @@ a {
         width: 445px;
         margin-top: 24px;
     }
-    
-    
+
+
 
 }
 
 /* Media query for screens with a width between 769 and 1024 pixels */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-   
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
 /* Media query for screens with a width between 1025 and 1200 pixels */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-   
-}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}
 
 /* Media query for screens with a minimum width of 1201 pixels */
-@media screen and (min-width: 1201px) {
-   
-}
+@media screen and (min-width: 1201px) {}
